@@ -1,0 +1,11 @@
+# no .a files
+*.a
+
+# all files in bin directory
+bin/
+
+# all files in obj directory
+obj/
+
+# TicTacToe.layout file
+/TicTacToe.layout

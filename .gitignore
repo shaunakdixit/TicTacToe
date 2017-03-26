@@ -6,3 +6,5 @@ bin/
 
 # all files in obj directory
 obj/
+
+# .layout file

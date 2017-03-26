@@ -82,6 +82,11 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
 {
     switch (message)                  /* handle the messages */
     {
+        // Handle left mouse button click
+        case WM_LBUTTONDOWN:
+            MessageBox(0, "Left mouse button clicked", "Msg", MB_OK);
+            return 0;
+        // Handle destroy window message.
         case WM_DESTROY:
             PostQuitMessage (0);       /* send a WM_QUIT to the message queue */
             break;

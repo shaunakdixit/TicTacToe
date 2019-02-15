@@ -1,0 +1,24 @@
+<!-- Thanks for submitting a pull request for Terasology! :-)
+Please fill in some details about the PR, below.
+If the PR contains source code please make sure to run Checkstyle on it first.
+If you add unit tests we'll love you forever! 
+
+You might also want to read "How to Work on a PR Efficiently":
+https://github.com/MovingBlocks/Terasology/wiki/How-to-Work-on-a-PR-Efficiently
+-->
+
+### Contains
+
+As stated in Issue #3608 I have added an **Extras** button  in **InGame Menu** which includes following buttons in it **"Metrics Menu "**, **"Issue Reporter"**, **"Developer Tools"** along with **"Back"** Button 
+
+
+to solve above issue I created **2** new files
+1-**ExtraMenuScreen.java**
+2-**extraMenuScreen.ui**
+
+### How to test
+
+Create a new game or load any previous games and then press **esc** .
+**InGame Menu** screen will appear then click on button by the name of **EXTRAS**.
+then after clicking a new screen will appear which will includes **"Metrics Menu "**, **"Issue Reporter"**, **"Developer Tools"** and  **"Back"** Button.
+
